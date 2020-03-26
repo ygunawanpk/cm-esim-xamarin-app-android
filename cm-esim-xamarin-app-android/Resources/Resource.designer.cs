@@ -3794,28 +3794,31 @@ namespace cm_esim_xamarin_app_android
 			public const int transition_transform = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int uniform = 2131230907;
+			public const int tvHelloWorld = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int unlabeled = 2131230908;
+			public const int uniform = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int up = 2131230909;
+			public const int unlabeled = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int useLogo = 2131230910;
+			public const int up = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int view_offset_helper = 2131230911;
+			public const int useLogo = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int visible = 2131230912;
+			public const int view_offset_helper = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int withText = 2131230913;
+			public const int visible = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int wrap_content = 2131230914;
+			public const int withText = 2131230914;
+			
+			// aapt resource value: 0x7F0800C3
+			public const int wrap_content = 2131230915;
 			
 			static Id()
 			{
@@ -4289,52 +4292,55 @@ namespace cm_esim_xamarin_app_android
 			public const int fab_transformation_sheet_behavior = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int hide_bottom_view_on_scroll_behavior = 2131623986;
+			public const int hello_world = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int install_esim_button = 2131623987;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int mtrl_chip_close_icon_content_description = 2131623988;
+			public const int install_esim_button = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int no_carrier_privileges_detected = 2131623989;
+			public const int mtrl_chip_close_icon_content_description = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int on_failure_esim_download = 2131623990;
+			public const int no_carrier_privileges_detected = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int on_success_response_active_esim = 2131623991;
+			public const int on_failure_esim_download = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int on_success_response_inactive_esim = 2131623992;
+			public const int on_success_response_active_esim = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int password_toggle_content_description = 2131623993;
+			public const int on_success_response_inactive_esim = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int path_password_eye = 2131623994;
+			public const int password_toggle_content_description = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int path_password_eye_mask_strike_through = 2131623995;
+			public const int path_password_eye = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int path_password_eye_mask_visible = 2131623996;
+			public const int path_password_eye_mask_strike_through = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int path_password_strike_through = 2131623997;
+			public const int path_password_eye_mask_visible = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int ready_carrier_privileges = 2131623998;
+			public const int path_password_strike_through = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int search_menu_title = 2131623999;
+			public const int ready_carrier_privileges = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int spectrum_mobile_desc = 2131624000;
+			public const int search_menu_title = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int status_bar_notification_info_overflow = 2131624001;
+			public const int spectrum_mobile_desc = 2131624001;
+			
+			// aapt resource value: 0x7F0E0042
+			public const int status_bar_notification_info_overflow = 2131624002;
 			
 			static String()
 			{

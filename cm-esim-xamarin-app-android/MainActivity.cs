@@ -14,7 +14,7 @@ namespace cm_esim_xamarin_app_android
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
     public class MainActivity : AppCompatActivity, IOnEsimDownloadListener
     {
-        private EsimHandler esimHandler;
+        //private EsimHandler esimHandler;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -31,8 +31,10 @@ namespace cm_esim_xamarin_app_android
             Button installButton = FindViewById<Button>(Resource.Id.installButton);
             installButton.Click += InstallButtonOnClick;
 
-            esimHandler = new EsimHandler(ApplicationContext);
-            esimHandler.Init(this);
+            //esimHandler = new EsimHandler(ApplicationContext);
+            //esimHandler.Init(this);
+
+            EsimHandler.Instance.Init(ApplicationContext, this);
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -55,7 +57,7 @@ namespace cm_esim_xamarin_app_android
         private void InstallButtonOnClick(object sender, EventArgs eventArgs)
         {
             View view = (View)sender;
-            esimHandler.DownloadEsim("Hello");
+            EsimHandler.Instance.DownloadEsim("LPA:1$SM-V4-056-A-GTM.PR.GO-ESIM.COM$540770E229B4D6AE0A54EB75619F5E81");
         }
 
         private void FabOnClick(object sender, EventArgs eventArgs)
